@@ -28,7 +28,7 @@ exit;
 <?php
 if($_GET['logout'])
 {
-print "Anda telah berhasil logout !<p>";
+print "Selamat,anda telah berhasil logout:D !<p>";
 }
 ?>Welcome
 <?php
