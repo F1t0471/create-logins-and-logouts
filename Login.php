@@ -6,14 +6,14 @@ $result = mysql_fetch_array($query);
 $row = mysql_num_rows($query);
 if(($user == "") && ($password == ""))
 {
-print "<center>Anda belum memasukkan username dan password !";
+print "<center>Maaf bos,anda belum memasukkan username dan password !";
 exit;
 }
 if($row != 0)
 {
 if($password != $result['password'])
 {
-print "<center>Password salah !";
+print "<center>Password salah kampred !";
 }
 else
 {
